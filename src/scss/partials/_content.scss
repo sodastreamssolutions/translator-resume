@@ -1,0 +1,108 @@
+h1{
+  font-family: 'Jockey One', sans-serif;
+  font-size: 130px;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #F5F5F5;
+}
+.article{
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 730px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 65px;
+  .article__image{
+    width: 330px;
+    height: 227px;
+    img{
+      width: 100%;
+    }
+  }
+  .article__text{
+    width: 370px;
+    font-size: 14px;
+    line-height: normal;
+    h2,span,a{
+      color: grey;
+    }
+    h2{
+      font-size: 18px;
+    }
+    p{
+      margin-top: 14px;
+    }
+    a{
+      font-size: 16px;
+      margin-top: 20px;
+      display: inline-block;
+      transition: color 0.5s;
+      &:hover{
+        color: white;
+
+      }
+    }
+  }
+  &:last-of-type{
+    padding-bottom: 30px;
+  }
+}
+.home{
+  padding-top: 50px;
+  margin: 0 auto;
+  .home__text{
+    margin: 0 auto;
+    width: 480px;
+  }
+  p{
+    text-align: center;
+    width: 435px;
+    font-size: 20px;
+    @include tablet{
+      font-size: 25px;
+      color:white;
+      text-align: left;
+      padding-top: 120px;
+      line-height: 1.1;
+      width: 100%;
+    }
+
+  }
+  h1{
+    font-size: 60px;
+    @include tablet{
+      text-align: right;
+      font-size: 130px;
+    }
+  }
+  .home__picture{
+    background-image: url("../img/agnieszkaKuc.jpg");
+    width: 435px;
+    height: 635px;
+    margin: 0 auto;
+    @include tablet{
+      margin-bottom: 20px;
+      text-align: right;
+      font-size: 130px;
+    }
+
+  }
+  @include tablet{
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+  }
+}
+
+#myInput{
+  display: block;
+  margin: 0 auto;
+}
+
+.form{
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}

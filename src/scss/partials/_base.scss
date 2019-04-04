@@ -1,0 +1,35 @@
+@mixin tablet {
+  @media all and (min-width: 740px){
+    @content;
+  }
+}
+
+body {
+  background: repeating-linear-gradient(to right, #F5F5F5 , #F5F5F5 2px, #fff 2px, #fff 10px);
+  color: #D2D2D2;
+}
+.container{
+  margin: 0 auto;
+  background: #202020;
+  width: 100%;
+  @include tablet{
+    width: 980px;
+  }
+}
+
+.pagination {
+  text-align: center;
+  li{
+    display:inline-block;
+    padding:5px;
+  }
+
+}
+
+.search{
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 730px;
+}

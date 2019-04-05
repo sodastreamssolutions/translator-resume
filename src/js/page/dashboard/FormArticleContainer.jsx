@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FormArticle from './FormArticle'
 
 class FormArticleContainer extends Component {
     constructor(props) {
@@ -7,7 +8,7 @@ class FormArticleContainer extends Component {
     }
     render() { 
         return ( 
-            <div>FormArticleContainer</div>
+            <FormArticle article={this.props.article}/>
         );
     }
 }

@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import foto1 from '../../../img/alice_munro.jpg';
+import foto2 from '../../../img/madame_chic.jpg';
+import foto3 from '../../../img/muza_480x320.jpg';
+import foto4 from '../../../img/salon.jpg';
 
 class FormArticleContainer extends Component {
     constructor(props) {

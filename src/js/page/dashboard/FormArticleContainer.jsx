@@ -7,8 +7,9 @@ class FormArticleContainer extends Component {
         this.state = {  }
     }
     render() { 
+        const { article, image } = this.props;
         return ( 
-            <FormArticle article={this.props.article}/>
+            <FormArticle article={article} image={image}/>
         );
     }
 }

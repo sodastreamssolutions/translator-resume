@@ -7,7 +7,7 @@ class Footer extends Component {
     }
     render() { 
         return ( 
-            <footer class="container footer">
+            <footer className="container footer">
                 <span> © 2018 SodaStreams Solution</span>​​
             </footer>
          );

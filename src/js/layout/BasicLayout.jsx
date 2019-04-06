@@ -8,7 +8,7 @@ class BasicLayout extends Component {
     }
     render() { 
         return ( 
-            <section class="container" id="test-list">
+            <section className="container" id="test-list">
                 {this.props.children}
             </section>
          );

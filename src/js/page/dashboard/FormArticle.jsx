@@ -12,7 +12,9 @@ class FormArticleContainer extends Component {
                 <div className="article__text">
                     <h2>{this.props.article.title}</h2>
                     <span>{this.props.article.date}</span>
-                    <p>{this.props.article.content}</p>
+                    {
+                        this.props.article.content.map(p => <p key={p}>{p}</p>)
+                    }
                     <a href={this.props.article.url}>{this.props.article.source}</a>
                 </div>
                 <button className="editArticle" hidden="hidden">Edit</button>

@@ -4,13 +4,19 @@
   }
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   background: repeating-linear-gradient(to right, #F5F5F5 , #F5F5F5 2px, #fff 2px, #fff 10px);
   color: #D2D2D2;
 }
-.container{
+
+.container {
   margin: 0 auto;
-  background: #202020;
+  background: #272727;
   width: 100%;
   @include tablet{
     width: 980px;
@@ -19,17 +25,21 @@ body {
 
 .pagination {
   text-align: center;
-  li{
+
+  li {
     display:inline-block;
     padding:5px;
   }
 
 }
 
-.search{
-
-  margin: 0 auto;
+.search {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   width: 730px;
+
+  &__element {
+    padding: 5px;
+  }
 }

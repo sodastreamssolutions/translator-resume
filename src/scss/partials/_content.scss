@@ -1,4 +1,4 @@
-h1{
+h1 {
   font-family: 'Jockey One', sans-serif;
   font-size: 130px;
   text-align: center;
@@ -7,59 +7,72 @@ h1{
   padding-bottom: 30px;
   color: #F5F5F5;
 }
-.article{
+
+.article {
   font-family: Arial, sans-serif;
   margin: 0 auto;
   width: 730px;
   display: flex;
   justify-content: space-between;
   padding-top: 65px;
-  .article__image{
+
+  .article__image {
     width: 330px;
     height: 227px;
-    img{
+
+    img {
       width: 100%;
     }
   }
-  .article__text{
+
+  .article__text {
     width: 370px;
     font-size: 14px;
     line-height: normal;
-    h2,span,a{
+
+    h2,span,a {
       color: grey;
     }
-    h2{
+
+    h2 {
       font-size: 18px;
     }
-    p{
+
+    p {
       margin-top: 14px;
     }
-    a{
+
+    a {
       font-size: 16px;
       margin-top: 20px;
       display: inline-block;
       transition: color 0.5s;
+
       &:hover{
         color: white;
-
       }
     }
   }
-  &:last-of-type{
+
+  &:last-of-type {
     padding-bottom: 30px;
   }
 }
-.home{
+
+.home {
   padding-top: 50px;
   margin: 0 auto;
-  .home__text{
+
+  .home__text {
     margin: 0 auto;
     width: 480px;
   }
-  p{
+
+  p {
     text-align: center;
     width: 435px;
     font-size: 20px;
+
     @include tablet{
       font-size: 25px;
       color:white;
@@ -68,15 +81,16 @@ h1{
       line-height: 1.1;
       width: 100%;
     }
-
   }
-  h1{
+
+  h1 {
     font-size: 60px;
     @include tablet{
       text-align: right;
       font-size: 130px;
     }
   }
+
   .home__picture{
     background-image: url("../img/agnieszkaKuc.jpg");
     width: 435px;
@@ -87,8 +101,8 @@ h1{
       text-align: right;
       font-size: 130px;
     }
-
   }
+
   @include tablet{
     display: flex;
     justify-content: space-between;
@@ -96,25 +110,29 @@ h1{
   }
 }
 
-.translations{
+.translations {
   padding-top: 50px;
   margin: 0 auto;
-  .translations__text{
+
+  &__text {
     margin: 0 auto;
     width: 480px;
     position: relative;
   }
-  h1{
+
+  h1 {
     font-size: 60px;
     @include tablet{
       text-align: right;
       font-size: 130px;
     }
   }
-  span{
+
+  span {
     text-align: center;
     width: 435px;
     font-size: 20px;
+
     @include tablet{
       font-size: 16px;
       color:white;
@@ -124,81 +142,101 @@ h1{
       line-height: 1.1;
       width: 100%;
     }
-
   }
-  .translations__picture{
+
+  .translations__picture {
     background-image: url("../img/alice_munro.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 435px;
     height: 635px;
     margin: 0 auto;
+
     @include tablet{
       margin-bottom: 20px;
       text-align: right;
       font-size: 130px;
     }
-
   }
-  @include tablet{
+
+  @include tablet {
     display: flex;
     justify-content: space-between;
     width: 940px;
   }
 }
 
-.media{
+.media {
   padding-top: 50px;
   margin: 0 auto;
-  .media__leftPanel{
+
+  &__leftPanel {
     margin: 0 auto;
     width: 480px;
     position: relative;
   }
-  h1{
+
+  &__header {
     font-size: 60px;
+
     @include tablet{
-      text-align: right;
+      text-align: left;
       font-size: 130px;
     }
   }
-  span{
-    text-align: center;
-    width: 435px;
-    font-size: 20px;
-    @include tablet{
-      font-size: 16px;
-      color:white;
-      text-align: left;
-      position: absolute;
-      bottom: 20px;
-      line-height: 1.1;
-      width: 100%;
-    }
 
-  }
-  .media__rightPanel{
-    width: 435px;
+  &__rightPanel {
     height: 635px;
-    margin: 0 auto;
+    margin: 50px auto;
+
     @include tablet{
       margin-bottom: 20px;
-      text-align: right;
-      font-size: 130px;
     }
-
   }
-  @include tablet{
+
+  @include tablet {
     display: flex;
     justify-content: space-between;
     width: 940px;
   }
 }
 
-#myInput{
+.media-article {
+  width: 350px;
+  margin-bottom: 85px;
+  font-family: Arial, sans-serif;
+
+  &__description {
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  &__footer {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  &__source {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+  }
+
+  &__link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+
+#myInput {
   display: block;
   margin: 0 auto;
 }
 
-.form{
+.form {
   display: none;
   margin-left: auto;
   margin-right: auto;

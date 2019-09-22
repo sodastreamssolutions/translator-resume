@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Dashboard from './js/page/dashboard/Dashboard'
+import DashboardPage from './js/page/dashboard/DashboardPage'
 import Header from "./js/layout/Header";
 import Footer from "./js/layout/Footer";
-import Home from "./js/page/home/Home";
-import Translations from "./js/page/translations/Translations";
-import Media from "./js/page/media/Media";
-import Contact from "./js/page/contact/Contact";
+import HomePage from "./js/page/home/HomePage";
+import TranslationsPage from "./js/page/translations/TranslationsPage";
+import MediaPage from "./js/page/media/MediaPage";
+import ContactPage from "./js/page/contact/ContactPage";
 import BasicLayout from './js/layout/BasicLayout';
 
 import {
@@ -31,11 +31,11 @@ class App extends Component {
       <div>
           <MainTemplate>
             <Switch>
-                <Route exact path="/" component={Dashboard} />
-                <Route path={"/home"} component={Home}/>
-                <Route path={"/przeklady"} component={Translations} />
-                <Route path={"/media"} component={Media}/>
-                <Route path={"/kontakt"} component={Contact}/>
+                <Route exact path="/" component={DashboardPage} />
+                <Route path={"/home"} component={HomePage}/>
+                <Route path={"/przeklady"} component={TranslationsPage} />
+                <Route path={"/media"} component={MediaPage}/>
+                <Route path={"/kontakt"} component={ContactPage}/>
                 {/* <Route component={NotFound} /> */}
             </Switch>
           </MainTemplate>

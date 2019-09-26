@@ -11,10 +11,16 @@ h1 {
 .article {
   font-family: Arial, sans-serif;
   margin: 0 auto;
-  width: 730px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   padding-top: 65px;
+
+  @include tablet {
+    width: 730px;
+    flex-direction: row;
+  }
 
   .article__image {
     width: 330px;
@@ -30,6 +36,7 @@ h1 {
     width: 370px;
     font-size: 14px;
     line-height: normal;
+    padding-top: 20px;
 
     h2,span,a {
       color: grey;
@@ -92,7 +99,7 @@ h1 {
     }
   }
 
-  .home__picture{
+  .home__picture {
     background-image: url("https://s3.eu-central-1.amazonaws.com/agnieszkakuc.gallery/aboutMe/0212.%2B%2B4.jpg");
     background-position: center;
     background-size: cover;
@@ -106,7 +113,7 @@ h1 {
     }
   }
 
-  @include tablet{
+  @include tablet {
     display: flex;
     justify-content: space-between;
     width: 940px;

@@ -19,7 +19,8 @@ h1 {
   .article__image {
     width: 330px;
     height: 227px;
-
+    overflow: hidden;
+    
     img {
       width: 100%;
     }
@@ -92,7 +93,9 @@ h1 {
   }
 
   .home__picture{
-    background-image: url("../img/agnieszkaKuc.jpg");
+    background-image: url("https://s3.eu-central-1.amazonaws.com/agnieszkakuc.gallery/aboutMe/0212.%2B%2B4.jpg");
+    background-position: center;
+    background-size: cover;
     width: 435px;
     height: 635px;
     margin: 0 auto;
@@ -144,14 +147,20 @@ h1 {
     }
   }
 
-  .translations__picture {
-    background-image: url("../img/alice_munro.jpg");
+  .translations__gallery {
+    background-image: url("https://s3.eu-central-1.amazonaws.com/agnieszkakuc.gallery/articles/Burton_Muza_m.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 435px;
     height: 635px;
     margin: 0 auto;
+    opacity: 0.8;
+  
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
 
     @include tablet{
       margin-bottom: 20px;
@@ -187,7 +196,6 @@ h1 {
   }
 
   &__rightPanel {
-    height: 635px;
     margin: 50px auto;
 
     @include tablet{
@@ -228,6 +236,18 @@ h1 {
     font-size: 18px;
     font-weight: bold;
     color: #fff;
+  }
+}
+
+.contact {
+  &__header {
+    font-size: 60px;
+    text-align: right;
+    padding: 100px;
+
+    @include tablet{
+      font-size: 130px;
+    }
   }
 }
 

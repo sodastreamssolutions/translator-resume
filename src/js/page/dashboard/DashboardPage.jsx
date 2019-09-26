@@ -2,7 +2,7 @@ import React, {
   Component,
 } from 'react';
 import ArticleContainer from './components/ArticleContainer';
-import { articlesData } from '../../data/Data';
+import articlesData from '../../data/articles.json';
 
 class DashboardPage extends Component {
   constructor(props) {

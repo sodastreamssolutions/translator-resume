@@ -1,11 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import foto1 from '../../../../img/alice_munro.jpg';
-import foto2 from '../../../../img/madame_chic.jpg';
-import foto3 from '../../../../img/muza_480x320.jpg';
-import foto4 from '../../../../img/salon.jpg';
-
 function Article({ article }) {
   return (
     <div className="article">

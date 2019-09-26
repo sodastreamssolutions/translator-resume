@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { media } from '../../data/Data'
-import MediaArticle from './components/MediaArticle'
+import media from '../../data/media.json';
+import MediaArticle from './components/MediaArticle';
 
 class MediaPage extends Component {
     constructor(props) {

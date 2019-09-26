@@ -1,0 +1,55 @@
+
+[
+    {
+        "id": 3,
+        "content": "'Jaki jest świat opowiadań kanadyjskiej mistrzyni, od lat jednej z najpoważniejszych kandydatek do literackiego Nobla? Jak to możliwe, że na kilku-kilkunastu stronach można opowiedzieć cały świat? Jakich bohaterów spotykamy? I co mówi czytelnikowi o sobie w tej dość nietypowej, jak na nią, książce? O tym porozmawiamy z tłumaczką Munro, Agnieszką Kuc .'​",
+        "footer": "Audycję przygotowali: Agnieszka Łukasiewicz, Sylwia Hejj i Michał Nogaś",
+        "links": [
+            {
+                "name": "artykuł i nagranie",
+                "url": "https://www.polskieradio.pl/9/874/Artykul/847855,Z-najwyzszej-polki-od-Birmy-po-Szwecje"
+            }
+        ],
+        "source": "www.polskieradio.pl"
+    },
+    {
+        "id": 2,
+        "content": "'Dwa lata temu w Polsce ukazał się tom jej opowiadań 'Uciekinierka', teraz do księgarń trafia druga książka tej pisarki zatytułowana 'Zbyt wiele szczęścia'. W dwójkowych 'Słowach po zmroku' o życiu i twórczości Alice Munro opowiadała tłumaczka opowiadań z tego tomu - Agnieszka Kuc.'​",
+        "footer": "Audycję przygotowały: Dorota Gacek i Elżbieta Łukomska",
+        "links": [
+            {
+                "name": "artykuł i nagranie",
+                "url": "https://www.polskieradio.pl/8/734/Artykul/309093/"
+            }
+        ],
+        "source": "www.polskieradio.pl"
+    },
+    {
+        "id": 1,
+        "content": "'Dlaczego Munro wybiera krótkie formy prozatorskie? Jak jej biografia odzwierciedla się w biografiach stworzonych przez nią bohaterek? Co kryje się w bezlitosnym spojrzeniu Munro? O twórczości znakomitej kanadyjskiej pisarki, laureatki prestiżowej Międzynarodowej Nagrody Bookera, mówili w Dwójce: pisarka, historyk literatury, prof. Inga Iwasiów; tłumaczka dwóch wydanych w Polsce zbiorów opowiadań Alice Munroe 'Zbyt wiele szczęścia' i 'Taniec szczęsliwych cieni', Agnieszka Kuc oraz dziennikarka Katarzyna Wajda.'",
+        "footer": "Audycję przygotowali: Dorota Gacek i Andrzej Franaszek",
+        "links": [
+            {
+                "name": "artykuł i nagranie",
+                "url": "https://www.polskieradio.pl/8/2222/Artykul/789561/"
+            }
+        ],
+        "source": "www.polskieradio.pl"
+    },
+    {
+        "id": 0,
+        "content":"Alice Munro została laureatką Nagrody Nobla w dziedzinie literatury. Uzasadniając werdykt Akademia Szwedzka nazwała ją 'mistrzynią krótkiej formy literackiej'. Jej opowiadania mówią o przekraczaniu granic, barier. Jeśli chodzi o budowanie postaci ma taką technikę, że wystarcza jedno zdanie i już wiemy, kim jest bohater - mówiła w Jedynce tłumaczka Agnieszka Kuc, gdy w 2011 roku ukazał się po polsku tom 'Zbyt wiele szczęścia'.",
+        "footer": "Rozmawiała Magda Mikołajczuk",
+        "links": [
+            {
+                "name": "nagranie",
+                "url": "http://static.polskieradio.pl/e1456b2f-b5ae-44fe-b506-fadc765c2a67.mp3"
+            },
+            {
+                "name": "artykuł",
+                "url": "https://www.polskieradio.pl/7/178/Artykul/952585,Alice-Munro-laureatka-Literackiego-Nobla-Jej-pisarstwo-jest-zwierciadlem-zmiany-spolecznej"
+            }
+        ],
+        "source": "www.polskieradio.pl"
+    }
+]

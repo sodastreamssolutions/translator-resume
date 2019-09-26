@@ -46,7 +46,7 @@
     {
         "id": "1",
         "title": "Salon u Raczyńskich",
-        "image": "/static/media/salon.4dc25c4c.jpg",
+        "image": "https://s3.eu-central-1.amazonaws.com/agnieszkakuc.gallery/articles/022.JPG.jpg",
         "date": "October 19, 2014",
         "content":  [
             "W dniu 13 października w ramach Salonu u Raczyńskich odbyło się spotkanie poświęcone twórczości ubiegłorocznej noblistki Alice Munro. W spotkaniu wzięli udział: profesor Inga Iwasiów, redaktor Juliusz Kurkiewicz i tłumaczka Agnieszka Kuc. Teksty Alice Munro czytała aktorka Grażyna Wolszczak."

@@ -1,11 +1,15 @@
 h1 {
   font-family: 'Jockey One', sans-serif;
-  font-size: 130px;
+  font-size: 70px;
   text-align: center;
   margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #F5F5F5;
+
+  @include tablet {
+    font-size: 130px;
+  }
 }
 
 .article {

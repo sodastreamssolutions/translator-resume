@@ -20,11 +20,11 @@ class TranslationsPage extends Component {
             <div className="translations">
                 <div className="translations__text">
                     <h1>Przekłady</h1>
-                    <span>
+                    <p>
                         Okładki książek umieszczone są jedynie w celach prezentacji przekładów
                         dokonanych przez tłumaczkę i nie są pobierane z tego faktu żadne korzyści.
                         Tłumaczka ani autor strony nie posiadają żadnych praw do okładek ani treści samych publikacji.​
-                    </span>
+                    </p>
                 </div>
                 <button className="translations__gallery" onClick={this.toggleGallery} />
                 <ReactBnbGallery

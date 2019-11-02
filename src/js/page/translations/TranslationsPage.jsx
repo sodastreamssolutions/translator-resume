@@ -26,7 +26,7 @@ class TranslationsPage extends Component {
                         Tłumaczka ani autor strony nie posiadają żadnych praw do okładek ani treści samych publikacji.​
                     </p>
                 </div>
-                <button className="translations__gallery" onClick={this.toggleGallery} />
+                <button className="translations__gallery" onMouseEnter={this.toggleGallery} />
                 <ReactBnbGallery
                     show={this.state.galleryOpened}
                     photos={photos}

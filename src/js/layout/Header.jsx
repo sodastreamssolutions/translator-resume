@@ -11,11 +11,11 @@ class Header extends Component {
             <header>
                 <nav>
                     <ul>
-                        <li><NavLink exact to="/home">home</NavLink></li>
-                        <li><NavLink exact to="/">aktualności</NavLink></li>
-                        <li><NavLink exact to="/przeklady">przekłady</NavLink></li>
-                        <li><NavLink exact to="/media">media</NavLink></li>
-                        <li><NavLink exact to="/kontakt">kontakt</NavLink></li>
+                        <li><NavLink exact to="/home"><span>home</span></NavLink></li>
+                        <li><NavLink exact to="/"><span>aktualności</span></NavLink></li>
+                        <li><NavLink exact to="/przeklady"><span>przekłady</span></NavLink></li>
+                        <li><NavLink exact to="/media"><span>media</span></NavLink></li>
+                        <li><NavLink exact to="/kontakt"><span>kontakt</span></NavLink></li>
                     </ul>
                 </nav>
             </header>
